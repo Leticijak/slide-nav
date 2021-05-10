@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FA -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid topz">
+      <button class="navi-btn openz-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="container-fluid topc">
+      <div class="text-center"></div>
+    </div>
+
+    <!-- HERO -->
+    <div class="jumbo" data-aos="fade-up">
+      <div class="text-center">
+        <h1>CONTACT US</h1>
+      </div>
+    </div>
+
+    <!-- END HERO -->
+
+    <!-- NAV -->
+    <!-- black -->
+    <div class="navi navi-black">
+      <!-- green -->
+      <div class="navi navi-green">
+        <!-- White putt content here -->
+        <div class="navi navi-white">
+          <button class="navi-btn close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <img src="/img/chia.jpeg" alt="" class="logoz" />
+          <!-- Menu -->
+          <ul class="listz">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <div class="row">
+            <div class="text-center">
+              <a class="" href="#"><i class="fab fa-instagram-square"></i></a>
+              <a class="" href=""><i class="fab fa-facebook-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- SECTION INFO -->
+    <div class="container-fluid">
+      <div class="container content my-5" data-aos="fade-up">
+        <p class="lead">Leave us a message and feel free to ask any question</p>
+        <p class="">We will quickly and promptly respond to your message</p>
+
+        <form action="https://formspree.io/f/xnqlpaol" method="POST">
+          <div class="form-group">
+            <label data-aos="fade-up">Name</label>
+            <input type="text" class="form-control" data-aos="fade-up" />
+          </div>
+
+          <div class="form-group">
+            <label data-aos="fade-up">E-mail</label>
+            <input
+              type="email"
+              name="_replyto"
+              class="form-control"
+              data-aos="fade-up"
+            />
+          </div>
+          <p class="">Number of plots you are interested in ?</p>
+          <div class="form-group ml-2">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="q5check_1"
+                id="q5check_1"
+                value="self_employed"
+              />
+              <label class="form-check-label" for="q5check_2"> 1-10 </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="q5check_2"
+                id="q5check_2"
+                value="divorce"
+              />
+              <label class="form-check-label" for="q5check_1"> 10-50 </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="q5check_3"
+                id="q5check_3"
+                value="bankruptcy"
+              />
+              <label class="form-check-label" for="q5check_3"> 50-100 </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="q5check_4"
+                id="q5check_4"
+                value="credit"
+              />
+              <label for="q5check_4"> 100 + </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label data-aos="fade-up">Message</label>
+            <textarea
+              rows="3"
+              class="form-control"
+              data-aos="fade-up"
+              name="message"
+            ></textarea>
+          </div>
+          <div class="my-5"><button type="sumbit">SEND</button></div>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container">
+        <div class="text-center p-5">
+          <a class="p-2" href="#"><i class="fab fa-instagram-square"></i></a>
+          <a class="p-2" href=""><i class="fab fa-facebook-square"></i></a>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <p class="text-center">
+          &copy; BUYCHIAPLOTS 2021, ALL RIGHTS RESERVED.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
