@@ -341,3 +341,6 @@ footer p {
 .contacts h1 {
   letter-spacing: 2px;
 }
+.something {
+  clear: both;
+}
