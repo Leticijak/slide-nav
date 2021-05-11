@@ -246,7 +246,7 @@ form button {
 
 .jumbotron {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url(/img/brazil.jpg);
+    url(/img/brazil.webp);
   background-size: cover;
 }
 .jumbotron p {
