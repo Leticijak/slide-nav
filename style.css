@@ -24,6 +24,7 @@ p {
   text-transform: uppercase;
 }
 .logoz {
+  text-align: center;
   width: 150px;
 }
 
@@ -128,8 +129,9 @@ p {
 /* HERO */
 
 .main-cont p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 400;
+  font-family: 'Merriweather', serif;
 }
 
 .topz {
