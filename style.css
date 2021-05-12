@@ -373,6 +373,9 @@ footer p {
 .pushdown {
   margin-top: 100px;
 }
+.pushdown h1 {
+  color: #353535;
+}
 #compname {
   text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
   font-weight: 700;
