@@ -380,6 +380,10 @@ footer p {
   text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
   font-weight: 700;
 }
+#imgz {
+  margin-top: 110px;
+  opacity: 0.5;
+}
 
 @media (max-width: 600px) {
   .navi i {
@@ -392,10 +396,7 @@ footer p {
     width: 18rem;
   }
   .top-logo {
-    position: absolute;
-    top: 40px;
-    left: 150px;
-    width: 45px;
+    display: none;
   }
   .pushdown {
     margin-top: 30px;
@@ -405,6 +406,12 @@ footer p {
   }
   #compname {
     font-size: 3rem;
+  }
+  #imgz {
+    display: none;
+  }
+  .logoz {
+    width: 30px;
   }
 }
 #compname > span:nth-child(1) {
