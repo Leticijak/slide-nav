@@ -363,12 +363,6 @@ footer p {
   font-family: 'Poppins', sans-serif;
 }
 
-.top-logo {
-  position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 145px;
-}
 .pushdown {
   margin-top: 100px;
 }
@@ -420,8 +414,9 @@ footer p {
     width: 69px;
   }
 }
-@media (min-device-width: 1377px) {
-  .top-logo {
-    display: none;
-  }
+.top-logo {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 125px;
 }
