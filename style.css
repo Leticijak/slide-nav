@@ -340,6 +340,13 @@ footer p {
 
   letter-spacing: 2px;
 }
+.top-logo {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 125px;
+}
+
 .something {
   clear: both;
 }
@@ -413,10 +420,4 @@ footer p {
     left: 30px;
     width: 69px;
   }
-}
-.top-logo {
-  position: absolute;
-  top: 60px;
-  left: 10px;
-  width: 125px;
 }
