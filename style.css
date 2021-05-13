@@ -431,3 +431,9 @@ footer p {
     width: 69px;
   }
 }
+#money > strong {
+  color: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 1px rgba(33, 200, 33, 0.6);
+}
