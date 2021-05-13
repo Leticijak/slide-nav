@@ -391,7 +391,7 @@ footer p {
     margin: 20px;
   }
   .card {
-    margin-left: 10px;
+    margin-left: 2rem;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     width: 18rem;
   }
@@ -402,9 +402,11 @@ footer p {
     margin-top: 30px;
   }
   .pushdown h1 {
-    font-size: 1.4rem;
+    margin-left: 15px;
+    font-size: 1.3rem;
   }
   #compname {
+    margin-left: 10px;
     font-size: 3rem;
   }
   #imgz {
@@ -412,6 +414,20 @@ footer p {
   }
   .logoz {
     width: 30px;
+  }
+  #pitch > .container > p {
+    padding: 10px;
+    text-align: left;
+  }
+  #pitch p {
+  }
+  #article1 p {
+    padding: 0;
+    text-align: left;
+  }
+  #article2 p {
+    padding: 0;
+    text-align: left;
   }
 }
 #compname > span:nth-child(1) {
@@ -432,8 +448,19 @@ footer p {
   }
 }
 #money > strong {
-  color: #353535;
+  color: rgb(13, 133, 13);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
-  text-shadow: 1px 1px 1px rgba(33, 200, 33, 0.6);
+  /* text-shadow: 1px 1px 1px rgba(33, 200, 33, 0.6); */
+}
+#pitch p {
+  padding: 2rem;
+}
+#article1 p {
+  padding: 1rem;
+  text-align: left;
+}
+#article2 p {
+  padding: 1rem;
+  text-align: left;
 }
